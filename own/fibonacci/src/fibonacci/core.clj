@@ -13,5 +13,7 @@
     nil
     (if (= n 0)
       0
-      (last (take (inc n) fib-seq)))))
+      (last
+        (take (inc n)
+              fib-seq)))))
 
